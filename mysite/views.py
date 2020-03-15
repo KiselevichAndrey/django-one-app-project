@@ -1,8 +1,11 @@
-from django.http import HttpResponse
 from django.shortcuts import render
+
+from mysite.models import Blog
 
 
 def home(request):
-    html = "<h1>%s</h1>" % "hello"
-    return render(request, 'mysite/index.html')
-    # return HttpResponse(html)
+    blog = Blog.objects.get(pk=1)
+    return render(request,
+                  'mysite/index.html',
+                  {'blog': blog}
+                  )

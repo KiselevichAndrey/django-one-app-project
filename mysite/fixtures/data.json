@@ -1,0 +1,27 @@
+[
+{
+  "model": "mysite.blog",
+  "pk": 1,
+  "fields": {
+    "title": "Lorem ipsum"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$FWu1JbLzmLCn$6GlK9DAk9PqXiFlgy6jNXJd0Pg0MlHZfYcYvCBfxcPU=",
+    "last_login": "2020-03-04T12:50:51.007Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "mail@example.org",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-03-04T12:37:58.626Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
